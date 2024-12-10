@@ -1,0 +1,231 @@
+/* General Styles */
+body {
+    font-family: 'Sora', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #242221;
+    background-color: #fff1e4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #e0755e;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff1e4;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #242221;
+    background-color: #fff1e4;
+}
+
+footer {
+    background-color: #e0755e;
+    color: #fff1e4;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+}
+
+/* Hero Section */
+.hero {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 3rem 1.25rem;
+    background-color: #232526;
+    border-radius: 0.625rem;
+    color: #242221;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1rem;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 1.25rem;
+    border-radius: 0.625rem;
+}
+
+/* Section Styling */
+section {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #e0755e;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+section p, section ul {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+.action-button {
+    display: inline-block;
+    background-color: #e0755e;
+    color: #fff1e4;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #242221;
+    transform: translateY(-3px);
+}
+
+/* Album Section */
+.album {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 3rem 1.25rem;
+    background-color: #232526;
+    border-radius: 0.625rem;
+    color: #242221;
+}
+
+.album img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Tracklist Section */
+.tracklist {
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.tracklist h2 {
+    font-size: 2rem;
+    color: #e0755e;
+    margin-bottom: 1rem;
+}
+
+.tracklist ol {
+    list-style-position: inside;
+    font-size: 1rem;
+}
+
+/* Merchandise Page */
+.merch {
+    text-align: center;
+    padding: 3rem 1.25rem;
+    background-color: #232526;
+    color: #242221;
+}
+
+.merch h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* Product Container */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.product-card h4 {
+    font-size: 1.2rem;
+    color: #e0755e;
+    margin-bottom: 1rem;
+}
+
+.product-card p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.product-card .purchase-button {
+    background-color: #e0755e;
+    color: #fff1e4;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.product-card .purchase-button:hover {
+    background-color: #242221;
+    color: #fff1e4;
+}
